@@ -1,6 +1,6 @@
 # MatchTheFlag
 
-Live link - https://matchtheflagjc.netlify.app/
+Live link - https://match-the-flag-aemro.netlify.app/
 
 ## **Match the Flag Game**
 
