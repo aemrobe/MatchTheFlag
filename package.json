@@ -1,0 +1,19 @@
+{
+  "name": "matchtheflagmine",
+  "version": "1.0.0",
+  "description": "Matching Flags with their country names",
+  "default": "index.html",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html --dist-dir ./dist"
+  },
+  "author": "Aemro Bekalu",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.10.3"
+  },
+  "dependencies": {
+    "core-js": "^3.35.0",
+    "regenerator-runtime": "^0.14.1"
+  }
+}

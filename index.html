@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--css file-->
+    <link rel="stylesheet" href="main.css" />
+    <!--js file-->
+    <script type="module" defer src="./src/js/controller.js"></script>
+    <title>mine: Match The Flag Game</title>
+  </head>
+  <body>
+    <div class="container">
+      <!--header-->
+      <header class="">
+        <h1 class="title">Match The Flags To Their Country Names</h1>
+      </header>
+
+      <!--main-->
+      <main class="main">
+        <!--The game window-->
+        <div class="game hidden">
+          <!--flag list-->
+          <ul class="flag-list"></ul>
+
+          <!--country list-->
+          <ul class="country-list"></ul>
+
+          <!--life-remaining-->
+          <ul class="life-health"></ul>
+
+          <!--score-->
+          <p class="score">0</p>
+        </div>
+
+        <!--home-->
+        <div class="home">
+          <img
+            src="./src/imgs/globe-big.svg"
+            alt="image of the globe"
+            class="globe-big"
+          />
+
+          <div class="btn-container">
+            <button class="btn btn--red btn--start">Start</button>
+            <button class="btn btn--green btn--library">Library</button>
+          </div>
+        </div>
+
+        <!--library window-->
+        <div class="overlay hidden">
+          <!--close button-->
+          <img
+            src="./src/imgs/close-btn.svg"
+            alt="close button"
+            class="library-close-btn"
+          />
+
+          <!--library-->
+          <div class="library"></div>
+        </div>
+
+        <!--game result window-->
+        <div class="result hidden"></div>
+      </main>
+    </div>
+  </body>
+</html>
