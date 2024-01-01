@@ -59,7 +59,7 @@ const controlMatchResult = async function () {
         //when the user got all the matches
         if (ifTheUserGotAllMatches()) {
           //emptying the previous loaded data
-          emptyingPreviousLoadedData();
+          emptyingPreviousLoadedCountryAndFlagData();
 
           //loading the flag and country again
           setTimeout(controlCountryResult, 500);

@@ -1,3 +1,5 @@
+import icons from "../../imgs/icons.svg";
+
 export default class View {
   _data = "";
   _parentElement = document.querySelector(".flag-list");
@@ -6,7 +8,7 @@ export default class View {
     const markup = `
       <div class="spinner">
         <svg>
-          <use href="src/imgs/icons.svg#icon-loader"></use>
+          <use href="${icons}#icon-loader"></use>
         </svg>
       </div>
     `;
