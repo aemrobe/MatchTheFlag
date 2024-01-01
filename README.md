@@ -10,7 +10,7 @@ Welcome to Match the Flag, an interactive and educational game where you can tes
 
 ## **Game Screenshot**
 
-<img src="/src/imgs/Game Screenshot.png" alt="Game Screenshot">
+![](./src/imgs/match-the-flag-game-screenshot.png)
 
 ## **How to Play**
 
